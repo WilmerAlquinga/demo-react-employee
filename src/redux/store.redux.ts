@@ -10,6 +10,6 @@ export interface AppStore {
 export default configureStore<AppStore>({
   reducer: {
     people: peopleSlice.reducer,
-    favorite: favoriteSlice.reducer
+    favorite: favoriteSlice.reducer,
   },
 });
